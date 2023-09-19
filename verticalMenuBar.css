@@ -1,0 +1,25 @@
+/* Styling for the icon bar container */
+.icon-bar {
+    width: 90px; /* Set a fixed width for the container */
+    background-color: #555; /* Apply a dark-grey background color */
+}
+
+    /* Styling for individual icon links within the container */
+    .icon-bar a {
+        display: block; /* Arrange the links in a vertical layout */
+        text-align: center; /* Center-align the text within each link */
+        padding: 16px; /* Add padding around each link */
+        transition: all 0.3s ease; /* Implement a smooth transition effect on hover */
+        color: white; /* Set the text color to white */
+        font-size: 36px; /* Increase the font size for the icons */
+    }
+
+        /* Styling for the icon links when hovered */
+        .icon-bar a:hover {
+            background-color: #000; /* Change the background color on hover to black */
+        }
+
+/* Styling for the currently active icon link */
+.active {
+    background-color: #04AA6D; /* Apply a specific background color for the active link */
+}
